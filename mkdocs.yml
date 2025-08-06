@@ -1,0 +1,88 @@
+site_name: SAP Odyssey
+site_description: A comprehensive SAP knowledge hub featuring technical insights, integration expertise, and cross-technology explorations
+site_url: https://gunasekhar8554.github.io/sap-odyssey/
+repo_name: GunaSekhar8554/sap-odyssey
+repo_url: https://github.com/GunaSekhar8554/sap-odyssey
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # favicon: assets/images/favicon.png
+  # logo: assets/images/favicon.png
+
+plugins:
+  - search
+  # - social
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+    - SAP Integration Journey: blog/sap-integration-journey.md
+    - Cloud Migration Strategies: blog/cloud-migration-strategies.md
+    - PI/PO Best Practices: blog/pi-po-best-practices.md
+  - PI/PO:
+    - PO/index.md
+    - Getting Started: PO/getting-started.md
+    - Advanced Configurations: PO/advanced-configurations.md
+    - Troubleshooting Guide: PO/troubleshooting.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/gunasekharreddy8554/
+      name: LinkedIn Profile
+    - icon: fontawesome/brands/github
+      link: https://github.com/GunaSekhar8554
+      name: GitHub Profile
+    - icon: fontawesome/solid/user-group
+      link: https://profile.sap.com/u/_GunaSekhar_
+      name: SAP Community Profile
+
+copyright: Copyright &copy; 2025 Guna Sekhar

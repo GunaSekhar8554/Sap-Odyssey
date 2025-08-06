@@ -1,0 +1,45 @@
+<!-- Comments Section with Giscus Integration -->
+<div class="comments-section">
+  <hr class="comments-divider">
+  
+  <!-- Giscus Comments -->
+  <div class="giscus-container">
+    <script src="https://giscus.app/client.js"
+            data-repo="GunaSekhar8554/sap-odyssey"
+            data-repo-id="R_kgDONXXXXX"
+            data-category="General"
+            data-category-id="DIC_kwDONXXXXX"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </div>
+</div>
+
+<style>
+.comments-section {
+  margin-top: 3rem;
+}
+
+.comments-divider {
+  border: none;
+  height: 1px;
+  background: var(--md-default-fg-color--lightest);
+  margin: 2rem 0;
+}
+
+.giscus-container {
+  margin-top: 2rem;
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .comments-divider {
+  background: var(--md-default-fg-color--lighter);
+}
+</style>
