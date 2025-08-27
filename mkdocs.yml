@@ -2,9 +2,9 @@
 
 site_name: SAPOdyssey
 site_description: A comprehensive SAP knowledge hub featuring technical insights, integration expertise, and cross-technology explorations
-site_url: https://github.com/GunaSekhar8554/SAPOdyssey
+site_url: https://gunasekhar8554.github.io/Sap-Odyssey/
 repo_name: SAPOdyssey
-repo_url: https://github.com/GunaSekhar8554/SAPOdyssey
+repo_url: https://github.com/GunaSekhar8554/Sap-Odyssey
 
 theme:
   name: material
@@ -63,9 +63,10 @@ nav:
   - Home: index.md
   - Blog:
     - blog/index.md
-    - SAP Integration Journey: blog/sap-integration-journey.md
-    - Cloud Migration Strategies: blog/cloud-migration-strategies.md
-    - PI/PO Best Practices: blog/pi-po-best-practices.md
+    - n8n Workflow Automation: AI/n8n.md
+  - AI: 
+    - AI/index.md
+    - n8n Workflow Automation: AI/n8n.md
 
 extra:
   social:

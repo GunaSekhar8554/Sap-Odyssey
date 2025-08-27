@@ -20,7 +20,7 @@ This site is where I share the knowledge I’ve gained in the past and post new 
 
 | Blog Title | Description | Link |
 |------------|-------------|------|
-| n8n: Low-code Automation | My first blog post on automating workflows with n8n | [Read n8n.md](blog/n8n.md) |
+| n8n: Low-code Automation | My first blog post on automating workflows with n8n | [Read n8n.md](AI/n8n.md) |
 
 ---
 

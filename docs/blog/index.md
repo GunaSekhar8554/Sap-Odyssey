@@ -11,21 +11,21 @@ Welcome to my collection of SAP insights, technical experiences, and practical s
 
 ## Latest Posts
 
-### [SAP Integration Journey](sap-integration-journey.md)
+### [SAP Integration Journey]()
 *A comprehensive look at the evolution from PI/PO to Integration Suite*
 
 Explore the transformation journey from traditional SAP Process Integration to the modern cloud-based Integration Suite, including migration strategies and lessons learned.
 
 ---
 
-### [Cloud Migration Strategies](cloud-migration-strategies.md)
+### [Cloud Migration Strategies]()
 *Practical approaches to moving SAP workloads to the cloud*
 
 Real-world insights on planning, executing, and optimizing SAP cloud migrations, covering both technical and business considerations.
 
 ---
 
-### [PI/PO Best Practices](pi-po-best-practices.md)
+### [PI/PO Best Practices]()
 *Battle-tested techniques for SAP Process Orchestration*
 
 A collection of proven practices, troubleshooting techniques, and performance optimization strategies for SAP PI/PO implementations.
@@ -34,14 +34,13 @@ A collection of proven practices, troubleshooting techniques, and performance op
 
 ## Categories
 
-<div class="blog-categories" markdown>
 
-- **Integration** - PI/PO, Integration Suite, middleware patterns
-- **Cloud** - BTP, migration strategies, hybrid architectures  
-- **Technical** - Configuration guides, troubleshooting, code examples
-- **Strategy** - Enterprise architecture, best practices, lessons learned
-
-</div>
+| Category     | Description                                      |
+|--------------|--------------------------------------------------|
+| Integration  | PI/PO, Integration Suite, middleware patterns    |
+| Cloud        | BTP, migration strategies, hybrid architectures  |
+| Technical    | Configuration guides, troubleshooting, code      |
+| Strategy     | Enterprise architecture, best practices, lessons |
 
 ---
 
