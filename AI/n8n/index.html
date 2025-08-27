@@ -6,32 +6,30 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Comprehensive guides for SAP Process Integration and Process Orchestration">
+        <meta name="description" content="A comprehensive SAP knowledge hub featuring technical insights, integration expertise, and cross-technology explorations">
       
       
       
-        <link rel="canonical" href="https://gunasekhar8554.github.io/sap-odyssey/PO/">
+        <link rel="canonical" href="https://gunasekhar8554.github.io/Sap-Odyssey/AI/n8n/">
       
       
-        <link rel="prev" href="../blog/pi-po-best-practices/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="getting-started/">
       
-      
-      <link rel="icon" href="../static/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>PI/PO Integration Guides - SAP Odyssey</title>
+        <title>n8n Workflow Automation - SAPOdyssey</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -75,11 +73,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#sap-pipo-integration-guides" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -90,7 +83,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="SAP Odyssey" class="md-header__button md-logo" aria-label="SAP Odyssey" data-md-component="logo">
+    <a href="../.." title="SAPOdyssey" class="md-header__button md-logo" aria-label="SAPOdyssey" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -104,13 +97,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            SAP Odyssey
+            SAPOdyssey
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              PI/PO Integration Guides
+              n8n Workflow Automation
             
           </span>
         </div>
@@ -197,13 +190,13 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/GunaSekhar8554/sap-odyssey" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/GunaSekhar8554/Sap-Odyssey" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    GunaSekhar8554/sap-odyssey
+    SAPOdyssey
   </div>
 </a>
       </div>
@@ -228,7 +221,7 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -249,7 +242,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../blog/" class="md-tabs__link">
+        <a href="../../blog/" class="md-tabs__link">
           
   
   
@@ -273,13 +266,13 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../" class="md-tabs__link">
           
   
   
     
   
-  PI/PO
+  AI
 
         </a>
       </li>
@@ -309,23 +302,23 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="SAP Odyssey" class="md-nav__button md-logo" aria-label="SAP Odyssey" data-md-component="logo">
+    <a href="../.." title="SAPOdyssey" class="md-nav__button md-logo" aria-label="SAPOdyssey" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    SAP Odyssey
+    SAPOdyssey
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/GunaSekhar8554/sap-odyssey" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/GunaSekhar8554/Sap-Odyssey" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    GunaSekhar8554/sap-odyssey
+    SAPOdyssey
   </div>
 </a>
     </div>
@@ -339,7 +332,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -369,10 +362,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -393,7 +382,7 @@
   
   
   
-    <a href="../blog/" class="md-nav__link">
+    <a href="../../blog/" class="md-nav__link">
       
   
   
@@ -431,10 +420,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -457,12 +442,12 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../" class="md-nav__link ">
               
   
   
   <span class="md-ellipsis">
-    PI/PO
+    AI
     
   </span>
   
@@ -470,7 +455,7 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_3" id="__nav_3_label" tabindex="">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -479,7 +464,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            PI/PO
+            AI
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -489,66 +474,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="getting-started/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Getting Started
+    n8n Workflow Automation
     
   </span>
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="advanced-configurations/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Advanced Configurations
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="troubleshooting/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Troubleshooting Guide
-    
-  </span>
-  
-
-      </a>
+      
     </li>
   
 
@@ -578,127 +525,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
-    <span class="md-ellipsis">
-      Getting Started
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Getting Started">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#getting-started-with-pipo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Getting Started with PI/PO
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#advanced-configurations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Advanced Configurations
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#troubleshooting-guide" class="md-nav__link">
-    <span class="md-ellipsis">
-      Troubleshooting Guide
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-reference" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quick Reference
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-integration-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Common Integration Patterns
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Common Integration Patterns">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#synchronous-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Synchronous Patterns
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#asynchronous-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Asynchronous Patterns
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#error-handling-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Error Handling Patterns
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#technology-coverage" class="md-nav__link">
-    <span class="md-ellipsis">
-      Technology Coverage
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#best-practices-summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Best Practices Summary
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -714,7 +540,7 @@
 
 
   
-    <a href="https://github.com/GunaSekhar8554/sap-odyssey/edit/master/docs/PO/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/GunaSekhar8554/Sap-Odyssey/edit/master/docs/AI/n8n.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -722,121 +548,7 @@
   
 
 
-<h1 id="sap-pipo-integration-guides">SAP PI/PO Integration Guides 🔧</h1>
-<p>Welcome to the comprehensive collection of SAP Process Integration (PI) and Process Orchestration (PO) guides. Whether you're just starting your integration journey or looking to optimize existing implementations, you'll find practical resources here.</p>
-<hr />
-<h2 id="getting-started">Getting Started</h2>
-<h3 id="getting-started-with-pipo"><a href="getting-started/">Getting Started with PI/PO</a></h3>
-<p><em>Foundation concepts and initial setup guidance</em></p>
-<p>Learn the fundamentals of SAP PI/PO architecture, key components, and step-by-step setup procedures for development environments.</p>
-<hr />
-<h3 id="advanced-configurations"><a href="advanced-configurations/">Advanced Configurations</a></h3>
-<p><em>Complex scenarios and optimization techniques</em></p>
-<p>Deep dive into advanced integration patterns, custom adapters, and performance optimization strategies for enterprise-scale implementations.</p>
-<hr />
-<h3 id="troubleshooting-guide"><a href="troubleshooting/">Troubleshooting Guide</a></h3>
-<p><em>Common issues and diagnostic procedures</em></p>
-<p>Comprehensive troubleshooting reference covering typical problems, diagnostic tools, and resolution strategies based on real-world experience.</p>
-<hr />
-<h2 id="quick-reference">Quick Reference</h2>
-<div class="reference-grid" markdown>
-
-### 🏗️ **Architecture Components**
-- Integration Engine (IE)
-- Adapter Engine (AE)  
-- System Landscape Directory (SLD)
-- Integration Repository (IR)
-- Integration Directory (ID)
-
-### 🔧 **Development Tools**
-- Enterprise Services Builder (ESB)
-- Integration Builder (IB)
-- Runtime Workbench (RWB)
-- Process Integration Monitoring
-
-### 📊 **Monitoring & Operations**
-- Message Monitoring
-- Adapter Monitoring  
-- Cache Monitoring
-- Performance Monitoring
-
-### 🚀 **Migration Path**
-- Assessment strategies
-- Integration Suite migration
-- Cloud-first approaches
-- Hybrid connectivity
-
-</div>
-
-<hr />
-<h2 id="common-integration-patterns">Common Integration Patterns</h2>
-<h3 id="synchronous-patterns">Synchronous Patterns</h3>
-<ul>
-<li><strong>Request-Response</strong> - Real-time data exchange</li>
-<li><strong>Lookup Operations</strong> - Reference data retrieval</li>
-<li><strong>Validation Services</strong> - Data quality checks</li>
-</ul>
-<h3 id="asynchronous-patterns">Asynchronous Patterns</h3>
-<ul>
-<li><strong>Fire and Forget</strong> - One-way message delivery</li>
-<li><strong>Publish-Subscribe</strong> - Event-driven architectures</li>
-<li><strong>Batch Processing</strong> - Bulk data transfers</li>
-</ul>
-<h3 id="error-handling-patterns">Error Handling Patterns</h3>
-<ul>
-<li><strong>Retry Mechanisms</strong> - Automatic recovery</li>
-<li><strong>Dead Letter Queues</strong> - Failed message handling  </li>
-<li><strong>Compensating Actions</strong> - Transaction rollback</li>
-</ul>
-<hr />
-<h2 id="technology-coverage">Technology Coverage</h2>
-<table>
-<thead>
-<tr>
-<th>Technology</th>
-<th>Description</th>
-<th>Use Cases</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>ABAP Proxies</strong></td>
-<td>Native SAP integration</td>
-<td>ERP to ERP communication</td>
-</tr>
-<tr>
-<td><strong>Web Services</strong></td>
-<td>SOAP/REST protocols</td>
-<td>Cross-platform integration</td>
-</tr>
-<tr>
-<td><strong>File Adapters</strong></td>
-<td>File-based exchange</td>
-<td>Legacy system integration</td>
-</tr>
-<tr>
-<td><strong>Database Adapters</strong></td>
-<td>Direct DB connectivity</td>
-<td>Data warehouse integration</td>
-</tr>
-<tr>
-<td><strong>Message Queues</strong></td>
-<td>JMS/MQ protocols</td>
-<td>Enterprise messaging</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="best-practices-summary">Best Practices Summary</h2>
-<p>!!! tip "Key Success Factors"
-    - <strong>Design for monitoring</strong> from the beginning
-    - <strong>Keep mappings simple</strong> and well-documented<br />
-    - <strong>Implement comprehensive error handling</strong>
-    - <strong>Use standard adapters</strong> wherever possible
-    - <strong>Plan for performance</strong> and scalability
-    - <strong>Document business logic</strong> thoroughly</p>
-<hr />
-<p><em>Ready to dive deeper? Start with the <a href="getting-started/">Getting Started</a> guide or jump to specific topics based on your needs.</em></p>
+  <h1>n8n Workflow Automation</h1>
 
 
 
@@ -844,8 +556,7 @@
 
 
 
-  
-  
+
 
 
 
@@ -921,7 +632,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../blog/pi-po-best-practices/" class="md-footer__link md-footer__link--prev" aria-label="Previous: PI/PO Best Practices">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Index">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -931,27 +642,11 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                PI/PO Best Practices
+                Index
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="getting-started/" class="md-footer__link md-footer__link--next" aria-label="Next: Getting Started">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Getting Started
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
@@ -1014,10 +709,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss", "content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.action.edit", "content.tooltips", "navigation.indexes", "navigation.footer", "navigation.instant", "navigation.sections", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.top", "navigation.prune", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.action.edit", "content.tooltips", "navigation.indexes", "navigation.footer", "navigation.instant", "navigation.sections", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.top", "navigation.prune", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>

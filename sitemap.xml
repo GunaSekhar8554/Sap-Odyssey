@@ -1,39 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://gunasekhar8554.github.io/sap-odyssey/</loc>
+         <loc>https://gunasekhar8554.github.io/Sap-Odyssey/</loc>
          <lastmod>2025-08-27</lastmod>
     </url>
     <url>
-         <loc>https://gunasekhar8554.github.io/sap-odyssey/PO/</loc>
+         <loc>https://gunasekhar8554.github.io/Sap-Odyssey/AI/</loc>
          <lastmod>2025-08-27</lastmod>
     </url>
     <url>
-         <loc>https://gunasekhar8554.github.io/sap-odyssey/PO/advanced-configurations/</loc>
+         <loc>https://gunasekhar8554.github.io/Sap-Odyssey/AI/n8n/</loc>
          <lastmod>2025-08-27</lastmod>
     </url>
     <url>
-         <loc>https://gunasekhar8554.github.io/sap-odyssey/PO/getting-started/</loc>
-         <lastmod>2025-08-27</lastmod>
-    </url>
-    <url>
-         <loc>https://gunasekhar8554.github.io/sap-odyssey/PO/troubleshooting/</loc>
-         <lastmod>2025-08-27</lastmod>
-    </url>
-    <url>
-         <loc>https://gunasekhar8554.github.io/sap-odyssey/blog/</loc>
-         <lastmod>2025-08-27</lastmod>
-    </url>
-    <url>
-         <loc>https://gunasekhar8554.github.io/sap-odyssey/blog/cloud-migration-strategies/</loc>
-         <lastmod>2025-08-27</lastmod>
-    </url>
-    <url>
-         <loc>https://gunasekhar8554.github.io/sap-odyssey/blog/pi-po-best-practices/</loc>
-         <lastmod>2025-08-27</lastmod>
-    </url>
-    <url>
-         <loc>https://gunasekhar8554.github.io/sap-odyssey/blog/sap-integration-journey/</loc>
+         <loc>https://gunasekhar8554.github.io/Sap-Odyssey/blog/</loc>
          <lastmod>2025-08-27</lastmod>
     </url>
 </urlset>
