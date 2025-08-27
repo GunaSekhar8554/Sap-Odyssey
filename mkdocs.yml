@@ -1,18 +1,17 @@
 
-site_name: SAP Odyssey
+
+site_name: SAPOdyssey
 site_description: A comprehensive SAP knowledge hub featuring technical insights, integration expertise, and cross-technology explorations
-site_url: https://github.com/GunaSekhar8554/Sap-Odyssey
-repo_name: Sap-Odyssey
-repo_url: https://github.com/GunaSekhar8554/Sap-Odyssey
+site_url: https://github.com/GunaSekhar8554/SAPOdyssey
+repo_name: SAPOdyssey
+repo_url: https://github.com/GunaSekhar8554/SAPOdyssey
 
 theme:
   name: material
-  custom_dir: overrides
-  logo_dark_mode: static/wordmark_light.svg  # Update path as needed
-  logo_light_mode: static/wordmark_dark.svg  # Update path as needed
-  favicon: static/favicon.png                # Update path as needed
+  custom_dir: overrides         # Update path as needed
   icon:
     repo: fontawesome/brands/git-alt
+
   features:
     - announce.dismiss
     - content.code.annotate
@@ -67,11 +66,6 @@ nav:
     - SAP Integration Journey: blog/sap-integration-journey.md
     - Cloud Migration Strategies: blog/cloud-migration-strategies.md
     - PI/PO Best Practices: blog/pi-po-best-practices.md
-  - PI/PO:
-    - PO/index.md
-    - Getting Started: PO/getting-started.md
-    - Advanced Configurations: PO/advanced-configurations.md
-    - Troubleshooting Guide: PO/troubleshooting.md
 
 extra:
   social:
