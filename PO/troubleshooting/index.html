@@ -17,7 +17,7 @@
       
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../static/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
@@ -43,8 +43,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Public+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Public Sans";--md-code-font:"Roboto Mono"}</style>
       
     
     
@@ -65,7 +65,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="gray">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -86,9 +86,7 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="SAP Odyssey" class="md-header__button md-logo" aria-label="SAP Odyssey" data-md-component="logo">
       
@@ -123,7 +121,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="gray"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -133,7 +131,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="white"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -178,6 +176,8 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
@@ -208,8 +208,14 @@
     
   </nav>
   
+</header>
     
+    <div class="md-container" data-md-component="container">
       
+      
+        
+          
+            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -245,6 +251,8 @@
           
   
   
+    
+  
   Blog
 
         </a>
@@ -267,6 +275,8 @@
           
   
   
+    
+  
   PI/PO
 
         </a>
@@ -278,13 +288,7 @@
     </ul>
   </div>
 </nav>
-    
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -356,25 +360,39 @@
   
     
     
-    
-    
       
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+      
         
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../blog/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
@@ -383,110 +401,12 @@
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
-            <span class="md-nav__icon md-icon"></span>
-            Blog
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../blog/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Blog
-    
-  </span>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../blog/sap-integration-journey/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    SAP Integration Journey
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../blog/cloud-migration-strategies/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Cloud Migration Strategies
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../blog/pi-po-best-practices/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    PI/PO Best Practices
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -502,6 +422,18 @@
   
     
     
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
     
     
       
@@ -512,6 +444,8 @@
         
       
     
+    
+      
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
@@ -520,8 +454,9 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -530,8 +465,14 @@
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
@@ -540,27 +481,6 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    PI/PO Integration Guides
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
               
@@ -1287,36 +1207,28 @@
     </a>
   
   
-    
-      
-    
-    <a href="https://github.com/GunaSekhar8554/sap-odyssey/raw/master/docs/PO/troubleshooting.md" title="View source of this page" class="md-content__button md-icon">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
-    </a>
-  
 
 
 <h1 id="pipo-troubleshooting-guide">PI/PO Troubleshooting Guide</h1>
 <p>A comprehensive reference for diagnosing and resolving common SAP PI/PO issues. This guide is organized by symptom and provides systematic approaches to problem resolution.</p>
 <h2 id="diagnostic-approach">Diagnostic Approach</h2>
 <h3 id="1-identify-the-problem-layer">1. Identify the Problem Layer</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>graph TD
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    A[Integration Issue] --&gt; B{Where is the failure?}
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    B --&gt;|Message not received| C[Sender Side]
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    B --&gt;|Message processing failed| D[PI/PO Engine]
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    B --&gt;|Message not delivered| E[Receiver Side]
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    C --&gt; C1[Source System]
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    C --&gt; C2[Sender Adapter]
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    D --&gt; D1[Repository Issues]
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    D --&gt; D2[Mapping Errors]
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    D --&gt; D3[Routing Problems]
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    E --&gt; E1[Receiver Adapter]
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    E --&gt; E2[Target System]
-</span></code></pre></div>
+<pre><code class="language-mermaid">graph TD
+    A[Integration Issue] --&gt; B{Where is the failure?}
+    B --&gt;|Message not received| C[Sender Side]
+    B --&gt;|Message processing failed| D[PI/PO Engine]
+    B --&gt;|Message not delivered| E[Receiver Side]
+
+    C --&gt; C1[Source System]
+    C --&gt; C2[Sender Adapter]
+
+    D --&gt; D1[Repository Issues]
+    D --&gt; D2[Mapping Errors]
+    D --&gt; D3[Routing Problems]
+
+    E --&gt; E1[Receiver Adapter]
+    E --&gt; E2[Target System]
+</code></pre>
 <h3 id="2-gather-information">2. Gather Information</h3>
 <p>Essential data points for troubleshooting:
 - <strong>Message ID</strong> - Unique identifier for tracking
@@ -1331,108 +1243,109 @@
 - Messages remain in "Processing" status
 - Queue depth increasing continuously
 - No error messages visible</p>
-<p><strong>Diagnostic Steps:</strong>
-<div class="language-sql highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">-- Check queue status</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">SELECT</span><span class="w"> </span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="n">QUEUE_NAME</span><span class="p">,</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="n">QUEUE_DEPTH</span><span class="p">,</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="n">CONSUMERS_ACTIVE</span><span class="p">,</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="n">LAST_PROCESSED</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="k">FROM</span><span class="w"> </span><span class="n">XI_QUEUE_STATUS</span><span class="w"> </span>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">QUEUE_DEPTH</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="c1">-- Check processing threads</span>
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="k">SELECT</span><span class="w"> </span>
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="n">THREAD_ID</span><span class="p">,</span>
-</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="n">STATUS</span><span class="p">,</span>
-</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="n">CURRENT_MESSAGE</span><span class="p">,</span>
-</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">    </span><span class="n">START_TIME</span>
-</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="k">FROM</span><span class="w"> </span><span class="n">XI_PROCESSING_THREADS</span><span class="p">;</span>
-</span></code></pre></div></p>
+<p><strong>Diagnostic Steps:</strong></p>
+<pre><code class="language-sql">-- Check queue status
+SELECT 
+    QUEUE_NAME,
+    QUEUE_DEPTH,
+    CONSUMERS_ACTIVE,
+    LAST_PROCESSED
+FROM XI_QUEUE_STATUS 
+WHERE QUEUE_DEPTH &gt; 0;
+
+-- Check processing threads
+SELECT 
+    THREAD_ID,
+    STATUS,
+    CURRENT_MESSAGE,
+    START_TIME
+FROM XI_PROCESSING_THREADS;
+</code></pre>
 <p><strong>Common Causes &amp; Solutions:</strong></p>
 <ol>
 <li>
 <p><strong>Dead Lock in Processing</strong>
-   <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># Restart messaging service</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>/usr/sap/XI/J00/j2ee/cluster/server0/bin/stopmessaging.sh
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>/usr/sap/XI/J00/j2ee/cluster/server0/bin/startmessaging.sh
-</span></code></pre></div></p>
+   <code>bash
+   # Restart messaging service
+   /usr/sap/XI/J00/j2ee/cluster/server0/bin/stopmessaging.sh
+   /usr/sap/XI/J00/j2ee/cluster/server0/bin/startmessaging.sh</code></p>
 </li>
 <li>
 <p><strong>Database Connection Issues</strong>
-   <div class="language-sql highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">-- Check connection pool</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="k">SELECT</span><span class="w"> </span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="n">POOL_NAME</span><span class="p">,</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="n">ACTIVE_CONNECTIONS</span><span class="p">,</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="n">IDLE_CONNECTIONS</span><span class="p">,</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="n">MAX_CONNECTIONS</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="k">FROM</span><span class="w"> </span><span class="n">XI_CONNECTION_POOLS</span><span class="p">;</span>
-</span></code></pre></div></p>
+   <code>sql
+   -- Check connection pool
+   SELECT 
+       POOL_NAME,
+       ACTIVE_CONNECTIONS,
+       IDLE_CONNECTIONS,
+       MAX_CONNECTIONS
+   FROM XI_CONNECTION_POOLS;</code></p>
 </li>
 <li>
 <p><strong>Memory Issues</strong>
-   <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1"># Check JVM memory usage</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>jstat<span class="w"> </span>-gc<span class="w"> </span>&lt;java_process_id&gt;
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c1"># Increase heap size if needed</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>-Xmx8192m<span class="w"> </span>-Xms4096m
-</span></code></pre></div></p>
+   ```bash
+   # Check JVM memory usage
+   jstat -gc <java_process_id></p>
 </li>
 </ol>
+<p># Increase heap size if needed
+   -Xmx8192m -Xms4096m
+   ```</p>
 <h4 id="issue-mapping-failures">Issue: Mapping Failures</h4>
 <p><strong>Symptoms:</strong>
 - Messages fail during transformation
 - "Mapping error" in message monitoring
 - Specific field transformation issues</p>
-<p><strong>Diagnostic Approach:</strong>
-<div class="language-java highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1">// Debug mapping with test data</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">debugMapping</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">testXML</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">        </span><span class="c1">// Load test payload</span>
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">        </span><span class="n">Document</span><span class="w"> </span><span class="n">testDoc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">loadXMLDocument</span><span class="p">(</span><span class="n">testXML</span><span class="p">);</span>
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">        </span><span class="c1">// Apply mapping</span>
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">        </span><span class="n">Document</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">executeMapping</span><span class="p">(</span><span class="n">testDoc</span><span class="p">);</span>
-</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>
-</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">        </span><span class="c1">// Validate result</span>
-</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="w">        </span><span class="n">validateOutput</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
-</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>
-</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Mapping failed: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="na">getMessage</span><span class="p">());</span>
-</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="w">        </span><span class="n">e</span><span class="p">.</span><span class="na">printStackTrace</span><span class="p">();</span>
-</span><span id="__span-5-16"><a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a><span class="p">}</span>
-</span></code></pre></div></p>
+<p><strong>Diagnostic Approach:</strong></p>
+<pre><code class="language-java">// Debug mapping with test data
+public void debugMapping(String testXML) {
+    try {
+        // Load test payload
+        Document testDoc = loadXMLDocument(testXML);
+
+        // Apply mapping
+        Document result = executeMapping(testDoc);
+
+        // Validate result
+        validateOutput(result);
+
+    } catch (Exception e) {
+        System.out.println(&quot;Mapping failed: &quot; + e.getMessage());
+        e.printStackTrace();
+    }
+}
+</code></pre>
 <p><strong>Common Mapping Issues:</strong></p>
 <ol>
-<li>
-<p><strong>Null Pointer Exceptions</strong>
-   <div class="language-xml highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="cm">&lt;!-- Add null checks --&gt;</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="nt">&lt;xsl:if</span><span class="w"> </span><span class="na">test=</span><span class="s">&quot;CustomerData/Name&quot;</span><span class="nt">&gt;</span>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">  </span><span class="nt">&lt;CustomerName&gt;</span>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">    </span><span class="nt">&lt;xsl:value-of</span><span class="w"> </span><span class="na">select=</span><span class="s">&quot;CustomerData/Name&quot;</span><span class="nt">/&gt;</span>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">  </span><span class="nt">&lt;/CustomerName&gt;</span>
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="nt">&lt;/xsl:if&gt;</span>
-</span></code></pre></div></p>
-</li>
-<li>
-<p><strong>Data Type Mismatches</strong>
-   <div class="language-xml highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="cm">&lt;!-- Convert data types properly --&gt;</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="nt">&lt;Amount&gt;</span>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">  </span><span class="nt">&lt;xsl:value-of</span><span class="w"> </span><span class="na">select=</span><span class="s">&quot;format-number(Price, &#39;0.00&#39;)&quot;</span><span class="nt">/&gt;</span>
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="nt">&lt;/Amount&gt;</span>
-</span></code></pre></div></p>
-</li>
-<li>
-<p><strong>Namespace Issues</strong>
-   <div class="language-xml highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="cm">&lt;!-- Declare namespaces correctly --&gt;</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="nt">&lt;xsl:stylesheet</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="w"> </span>
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="w">                </span><span class="na">xmlns:xsl=</span><span class="s">&quot;http://www.w3.org/1999/XSL/Transform&quot;</span>
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="w">                </span><span class="na">xmlns:source=</span><span class="s">&quot;http://company.com/source&quot;</span>
-</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="w">                </span><span class="na">xmlns:target=</span><span class="s">&quot;http://company.com/target&quot;</span><span class="nt">&gt;</span>
-</span></code></pre></div></p>
-</li>
+<li><strong>Null Pointer Exceptions</strong>
+   ```xml
+   <!-- Add null checks --></li>
 </ol>
+<p><xsl:if test="CustomerData/Name">
+     <CustomerName>
+       <xsl:value-of select="CustomerData/Name"/>
+     </CustomerName>
+   </xsl:if>
+   ```</p>
+<ol>
+<li><strong>Data Type Mismatches</strong>
+   ```xml
+   <!-- Convert data types properly --></li>
+</ol>
+<p><Amount>
+     <xsl:value-of select="format-number(Price, '0.00')"/>
+   </Amount>
+   ```</p>
+<ol>
+<li><strong>Namespace Issues</strong>
+   ```xml
+   <!-- Declare namespaces correctly --></li>
+</ol>
+<p><xsl:stylesheet version="1.0" 
+                   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                   xmlns:source="http://company.com/source"
+                   xmlns:target="http://company.com/target">
+   ```</p>
 <h3 id="adapter-issues">Adapter Issues</h3>
 <h4 id="file-adapter-problems">File Adapter Problems</h4>
 <p><strong>Issue: Files Not Being Picked Up</strong></p>
@@ -1441,106 +1354,104 @@
 - [ ] File naming pattern matches configuration
 - [ ] File locking by other processes
 - [ ] NFS mount issues (if applicable)</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1"># Check directory permissions</span>
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>ls<span class="w"> </span>-la<span class="w"> </span>/interface/input/
-</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
-</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="c1"># Test file creation</span>
-</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>touch<span class="w"> </span>/interface/input/test_file.txt
-</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>rm<span class="w"> </span>/interface/input/test_file.txt
-</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>
-</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="c1"># Check file locks</span>
-</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>lsof<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>/interface/input/
-</span></code></pre></div>
-<p><strong>Issue: Files Created But Empty</strong>
-<div class="language-java highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c1">// Common file adapter configuration</span>
-</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="o">&lt;</span><span class="n">FileAdapter</span><span class="o">&gt;</span>
-</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="w">    </span><span class="o">&lt;</span><span class="n">SourceDirectory</span><span class="o">&gt;/</span><span class="kd">interface</span><span class="err">/</span><span class="nc">input</span><span class="o">&lt;/</span><span class="n">SourceDirectory</span><span class="o">&gt;</span>
-</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="w">    </span><span class="o">&lt;</span><span class="n">FileName</span><span class="o">&gt;*</span><span class="p">.</span><span class="na">xml</span><span class="o">&lt;/</span><span class="n">FileName</span><span class="o">&gt;</span>
-</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="w">    </span><span class="o">&lt;</span><span class="n">ProcessingMode</span><span class="o">&gt;</span><span class="n">Delete</span><span class="o">&lt;/</span><span class="n">ProcessingMode</span><span class="o">&gt;</span>
-</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="w">    </span><span class="o">&lt;</span><span class="n">PollingInterval</span><span class="o">&gt;</span><span class="mi">60</span><span class="o">&lt;/</span><span class="n">PollingInterval</span><span class="o">&gt;</span>
-</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="w">    </span><span class="o">&lt;</span><span class="n">FileConstructionMode</span><span class="o">&gt;</span><span class="n">Create</span><span class="o">&lt;/</span><span class="n">FileConstructionMode</span><span class="o">&gt;</span>
-</span><span id="__span-10-8"><a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a><span class="w">    </span><span class="o">&lt;</span><span class="n">FileNameScheme</span><span class="o">&gt;</span><span class="n">output_</span><span class="o">%</span><span class="n">counter</span><span class="o">%</span><span class="p">.</span><span class="na">xml</span><span class="o">&lt;/</span><span class="n">FileNameScheme</span><span class="o">&gt;</span>
-</span><span id="__span-10-9"><a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a><span class="o">&lt;/</span><span class="n">FileAdapter</span><span class="o">&gt;</span>
-</span></code></pre></div></p>
+<pre><code class="language-bash"># Check directory permissions
+ls -la /interface/input/
+
+# Test file creation
+touch /interface/input/test_file.txt
+rm /interface/input/test_file.txt
+
+# Check file locks
+lsof | grep /interface/input/
+</code></pre>
+<p><strong>Issue: Files Created But Empty</strong></p>
+<pre><code class="language-java">// Common file adapter configuration
+&lt;FileAdapter&gt;
+    &lt;SourceDirectory&gt;/interface/input&lt;/SourceDirectory&gt;
+    &lt;FileName&gt;*.xml&lt;/FileName&gt;
+    &lt;ProcessingMode&gt;Delete&lt;/ProcessingMode&gt;
+    &lt;PollingInterval&gt;60&lt;/PollingInterval&gt;
+    &lt;FileConstructionMode&gt;Create&lt;/FileConstructionMode&gt;
+    &lt;FileNameScheme&gt;output_%counter%.xml&lt;/FileNameScheme&gt;
+&lt;/FileAdapter&gt;
+</code></pre>
 <h4 id="rfc-adapter-issues">RFC Adapter Issues</h4>
 <p><strong>Issue: RFC Connection Failures</strong></p>
-<p><strong>Diagnostic Commands:</strong>
-<div class="language-abap highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1">* Test RFC connection in SM59</span>
-</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="c1">* Check RFC authorizations in SU53</span>
-</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="c1">* Verify RFC function module exists in SE37</span>
-</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>
-</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="c1">&quot; Test RFC call</span>
-</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="k">DATA</span><span class="p">:</span><span class="w"> </span><span class="nv">lv_customer</span><span class="w"> </span><span class="k">TYPE </span><span class="nv">string</span><span class="p">.</span>
-</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a><span class="k">CALL FUNCTION</span><span class="w"> </span><span class="s1">&#39;BAPI_CUSTOMER_GETDETAIL&#39;</span>
-</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="w">  </span><span class="nv">DESTINATION</span><span class="w"> </span><span class="s1">&#39;PI_SYSTEM&#39;</span>
-</span><span id="__span-11-9"><a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a><span class="w">  </span><span class="k">EXPORTING</span>
-</span><span id="__span-11-10"><a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a><span class="w">    </span><span class="nv">customerno</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;12345&#39;</span>
-</span><span id="__span-11-11"><a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a><span class="w">  </span><span class="k">IMPORTING</span>
-</span><span id="__span-11-12"><a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a><span class="w">    </span><span class="nv">customer_address</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">lv_customer</span>
-</span><span id="__span-11-13"><a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a><span class="w">  </span><span class="k">EXCEPTIONS</span>
-</span><span id="__span-11-14"><a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a><span class="w">    </span><span class="nv">system_failure</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span>
-</span><span id="__span-11-15"><a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a><span class="w">    </span><span class="nv">communication_failure</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="p">.</span>
-</span><span id="__span-11-16"><a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a>
-</span><span id="__span-11-17"><a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a><span class="k">IF</span><span class="w"> </span><span class="nv">sy</span><span class="o">-</span><span class="nv">subrc</span><span class="w"> </span><span class="o">&lt;&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">.</span>
-</span><span id="__span-11-18"><a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a><span class="w">  </span><span class="k">WRITE</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;RFC call failed:&#39;</span><span class="p">,</span><span class="w"> </span><span class="nv">sy</span><span class="o">-</span><span class="nv">subrc</span><span class="p">.</span>
-</span><span id="__span-11-19"><a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a><span class="k">ENDIF</span><span class="p">.</span>
-</span></code></pre></div></p>
+<p><strong>Diagnostic Commands:</strong></p>
+<pre><code class="language-abap">* Test RFC connection in SM59
+* Check RFC authorizations in SU53
+* Verify RFC function module exists in SE37
+
+&quot; Test RFC call
+DATA: lv_customer TYPE string.
+CALL FUNCTION 'BAPI_CUSTOMER_GETDETAIL'
+  DESTINATION 'PI_SYSTEM'
+  EXPORTING
+    customerno = '12345'
+  IMPORTING
+    customer_address = lv_customer
+  EXCEPTIONS
+    system_failure = 1
+    communication_failure = 2.
+
+IF sy-subrc &lt;&gt; 0.
+  WRITE: 'RFC call failed:', sy-subrc.
+ENDIF.
+</code></pre>
 <p><strong>Common Solutions:</strong>
 1. <strong>Authorization Issues</strong> - Check RFC user permissions
 2. <strong>Network Connectivity</strong> - Verify firewall rules
 3. <strong>Load Balancing</strong> - Configure RFC groups properly</p>
 <h3 id="performance-issues">Performance Issues</h3>
 <h4 id="slow-message-processing">Slow Message Processing</h4>
-<p><strong>Performance Analysis Query:</strong>
-<div class="language-sql highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="c1">-- Identify slow interfaces</span>
-</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">SELECT</span><span class="w"> </span>
-</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="w">    </span><span class="n">INTERFACE_NAME</span><span class="p">,</span>
-</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="w">    </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">MESSAGE_COUNT</span><span class="p">,</span>
-</span><span id="__span-12-5"><a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a><span class="w">    </span><span class="k">AVG</span><span class="p">(</span><span class="n">PROCESSING_TIME</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">AVG_TIME</span><span class="p">,</span>
-</span><span id="__span-12-6"><a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a><span class="w">    </span><span class="k">MAX</span><span class="p">(</span><span class="n">PROCESSING_TIME</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">MAX_TIME</span><span class="p">,</span>
-</span><span id="__span-12-7"><a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a><span class="w">    </span><span class="k">MIN</span><span class="p">(</span><span class="n">PROCESSING_TIME</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">MIN_TIME</span>
-</span><span id="__span-12-8"><a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a><span class="k">FROM</span><span class="w"> </span><span class="n">XI_MESSAGE_LOG</span><span class="w"> </span>
-</span><span id="__span-12-9"><a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">START_TIME</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">SYSDATE</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span>
-</span><span id="__span-12-10"><a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">INTERFACE_NAME</span>
-</span><span id="__span-12-11"><a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a><span class="k">HAVING</span><span class="w"> </span><span class="k">AVG</span><span class="p">(</span><span class="n">PROCESSING_TIME</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">10000</span><span class="w">  </span><span class="c1">-- More than 10 seconds</span>
-</span><span id="__span-12-12"><a id="__codelineno-12-12" name="__codelineno-12-12" href="#__codelineno-12-12"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">AVG_TIME</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
-</span></code></pre></div></p>
+<p><strong>Performance Analysis Query:</strong></p>
+<pre><code class="language-sql">-- Identify slow interfaces
+SELECT 
+    INTERFACE_NAME,
+    COUNT(*) as MESSAGE_COUNT,
+    AVG(PROCESSING_TIME) as AVG_TIME,
+    MAX(PROCESSING_TIME) as MAX_TIME,
+    MIN(PROCESSING_TIME) as MIN_TIME
+FROM XI_MESSAGE_LOG 
+WHERE START_TIME &gt; SYSDATE - 1
+GROUP BY INTERFACE_NAME
+HAVING AVG(PROCESSING_TIME) &gt; 10000  -- More than 10 seconds
+ORDER BY AVG_TIME DESC;
+</code></pre>
 <p><strong>Optimization Techniques:</strong></p>
 <ol>
-<li>
-<p><strong>Database Tuning</strong>
-   <div class="language-sql highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="c1">-- Add indexes for frequently queried columns</span>
-</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">INDEX</span><span class="w"> </span><span class="n">IDX_MSG_INTERFACE_TIME</span><span class="w"> </span>
-</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="k">ON</span><span class="w"> </span><span class="n">XI_MESSAGE_LOG</span><span class="w"> </span><span class="p">(</span><span class="n">INTERFACE_NAME</span><span class="p">,</span><span class="w"> </span><span class="n">START_TIME</span><span class="p">);</span>
-</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>
-</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="c1">-- Update statistics</span>
-</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="k">EXEC</span><span class="w"> </span><span class="n">sp_updatestats</span><span class="p">;</span>
-</span></code></pre></div></p>
-</li>
-<li>
-<p><strong>JVM Optimization</strong>
-   <div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="c1"># Garbage collection tuning</span>
-</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>-XX:+UseG1GC
-</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>-XX:MaxGCPauseMillis<span class="o">=</span><span class="m">200</span>
-</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>-XX:G1HeapRegionSize<span class="o">=</span>16m
-</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>
-</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a><span class="c1"># Memory settings</span>
-</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a>-Xms4g<span class="w"> </span>-Xmx8g
-</span></code></pre></div></p>
-</li>
-<li>
-<p><strong>Message Processing</strong>
-   <div class="language-java highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="c1">// Batch processing for high volume</span>
-</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">processBatch</span><span class="p">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Message</span><span class="o">&gt;</span><span class="w"> </span><span class="n">messages</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">batchSize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span>
-</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">messages</span><span class="p">.</span><span class="na">size</span><span class="p">();</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">batchSize</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="w">        </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Message</span><span class="o">&gt;</span><span class="w"> </span><span class="n">batch</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">messages</span><span class="p">.</span><span class="na">subList</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="w"> </span>
-</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="w">            </span><span class="n">Math</span><span class="p">.</span><span class="na">min</span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">batchSize</span><span class="p">,</span><span class="w"> </span><span class="n">messages</span><span class="p">.</span><span class="na">size</span><span class="p">()));</span>
-</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="w">        </span><span class="n">processBatchMessages</span><span class="p">(</span><span class="n">batch</span><span class="p">);</span>
-</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="p">}</span>
-</span></code></pre></div></p>
-</li>
+<li><strong>Database Tuning</strong>
+   ```sql
+   -- Add indexes for frequently queried columns
+   CREATE INDEX IDX_MSG_INTERFACE_TIME 
+   ON XI_MESSAGE_LOG (INTERFACE_NAME, START_TIME);</li>
+</ol>
+<p>-- Update statistics
+   EXEC sp_updatestats;
+   ```</p>
+<ol>
+<li><strong>JVM Optimization</strong>
+   ```bash
+   # Garbage collection tuning
+   -XX:+UseG1GC
+   -XX:MaxGCPauseMillis=200
+   -XX:G1HeapRegionSize=16m</li>
+</ol>
+<p># Memory settings
+   -Xms4g -Xmx8g
+   ```</p>
+<ol>
+<li><strong>Message Processing</strong>
+   <code>java
+   // Batch processing for high volume
+   public void processBatch(List&lt;Message&gt; messages) {
+       int batchSize = 100;
+       for (int i = 0; i &lt; messages.size(); i += batchSize) {
+           List&lt;Message&gt; batch = messages.subList(i, 
+               Math.min(i + batchSize, messages.size()));
+           processBatchMessages(batch);
+       }
+   }</code></li>
 </ol>
 <h3 id="repository-and-cache-issues">Repository and Cache Issues</h3>
 <h4 id="cache-synchronization-problems">Cache Synchronization Problems</h4>
@@ -1548,20 +1459,20 @@
 - Old versions of objects being used
 - Configuration changes not taking effect
 - Inconsistent behavior across systems</p>
-<p><strong>Resolution Steps:</strong>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="c1"># Clear repository cache</span>
-</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>Transaction:<span class="w"> </span>SXI_CACHE
-</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>-<span class="w"> </span>Select<span class="w"> </span><span class="s2">&quot;Clear Cache&quot;</span>
-</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>-<span class="w"> </span>Choose<span class="w"> </span><span class="s2">&quot;Complete Cache&quot;</span>
-</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>
-</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="c1"># Restart Java engine</span>
-</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>/usr/sap/XI/J00/j2ee/cluster/server0/bin/restart.sh
-</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>
-</span><span id="__span-16-9"><a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a><span class="c1"># Check cache status</span>
-</span><span id="__span-16-10"><a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a>Transaction:<span class="w"> </span>SXMB_ADM
-</span><span id="__span-16-11"><a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a>-<span class="w"> </span>Integration<span class="w"> </span>Engine<span class="w"> </span>Configuration
-</span><span id="__span-16-12"><a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a>-<span class="w"> </span>Check<span class="w"> </span>Repository<span class="w"> </span>Cache<span class="w"> </span>Status
-</span></code></pre></div></p>
+<p><strong>Resolution Steps:</strong></p>
+<pre><code class="language-bash"># Clear repository cache
+Transaction: SXI_CACHE
+- Select &quot;Clear Cache&quot;
+- Choose &quot;Complete Cache&quot;
+
+# Restart Java engine
+/usr/sap/XI/J00/j2ee/cluster/server0/bin/restart.sh
+
+# Check cache status
+Transaction: SXMB_ADM
+- Integration Engine Configuration
+- Check Repository Cache Status
+</code></pre>
 <h4 id="transport-issues">Transport Issues</h4>
 <p><strong>Issue: Objects Not Transported Properly</strong></p>
 <p><strong>Checklist:</strong>
@@ -1569,57 +1480,57 @@
 - [ ] Transport order correct (Repository before Directory)
 - [ ] Target system configuration matches source
 - [ ] Cache cleared after transport</p>
-<div class="language-abap highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="c1">* Check transport status</span>
-</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="nv">E070</span><span class="w"> </span>
-</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="k">WHERE</span><span class="w"> </span><span class="nv">TRKORR</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;XI1K900123&#39;</span>
-</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="ow">AND</span><span class="w"> </span><span class="nv">AS4PROG</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;OBJECTS_CHANGED&#39;</span><span class="p">.</span>
-</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>
-</span><span id="__span-17-6"><a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a><span class="c1">* Verify object consistency</span>
-</span><span id="__span-17-7"><a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a><span class="nv">Transaction</span><span class="p">:</span><span class="w"> </span><span class="nv">SXMB_ADM</span>
-</span><span id="__span-17-8"><a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a><span class="o">-</span><span class="w"> </span><span class="nv">Integration</span><span class="w"> </span><span class="nv">Engine</span><span class="w"> </span><span class="nv">Configuration</span>
-</span><span id="__span-17-9"><a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a><span class="o">-</span><span class="w"> </span><span class="k">Check</span><span class="w"> </span><span class="k">Object</span><span class="w"> </span><span class="nv">Consistency</span>
-</span></code></pre></div>
+<pre><code class="language-abap">* Check transport status
+SELECT * FROM E070 
+WHERE TRKORR = 'XI1K900123'
+AND AS4PROG = 'OBJECTS_CHANGED'.
+
+* Verify object consistency
+Transaction: SXMB_ADM
+- Integration Engine Configuration
+- Check Object Consistency
+</code></pre>
 <h3 id="monitoring-and-alerting">Monitoring and Alerting</h3>
 <h4 id="setting-up-proactive-monitoring">Setting Up Proactive Monitoring</h4>
-<div class="language-sql highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="c1">-- Create monitoring views</span>
-</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">VIEW</span><span class="w"> </span><span class="n">V_XI_ERROR_SUMMARY</span><span class="w"> </span><span class="k">AS</span>
-</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="k">SELECT</span><span class="w"> </span>
-</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="w">    </span><span class="nb">DATE</span><span class="p">(</span><span class="n">START_TIME</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">ERROR_DATE</span><span class="p">,</span>
-</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a><span class="w">    </span><span class="n">INTERFACE_NAME</span><span class="p">,</span>
-</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a><span class="w">    </span><span class="n">ERROR_CODE</span><span class="p">,</span>
-</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a><span class="w">    </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">ERROR_COUNT</span>
-</span><span id="__span-18-8"><a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a><span class="k">FROM</span><span class="w"> </span><span class="n">XI_MESSAGE_LOG</span><span class="w"> </span>
-</span><span id="__span-18-9"><a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">STATUS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;ERROR&#39;</span>
-</span><span id="__span-18-10"><a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="nb">DATE</span><span class="p">(</span><span class="n">START_TIME</span><span class="p">),</span><span class="w"> </span><span class="n">INTERFACE_NAME</span><span class="p">,</span><span class="w"> </span><span class="n">ERROR_CODE</span><span class="p">;</span>
-</span><span id="__span-18-11"><a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a>
-</span><span id="__span-18-12"><a id="__codelineno-18-12" name="__codelineno-18-12" href="#__codelineno-18-12"></a><span class="c1">-- Daily error report</span>
-</span><span id="__span-18-13"><a id="__codelineno-18-13" name="__codelineno-18-13" href="#__codelineno-18-13"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">V_XI_ERROR_SUMMARY</span><span class="w"> </span>
-</span><span id="__span-18-14"><a id="__codelineno-18-14" name="__codelineno-18-14" href="#__codelineno-18-14"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">ERROR_DATE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">CURRENT_DATE</span>
-</span><span id="__span-18-15"><a id="__codelineno-18-15" name="__codelineno-18-15" href="#__codelineno-18-15"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">ERROR_COUNT</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
-</span></code></pre></div>
+<pre><code class="language-sql">-- Create monitoring views
+CREATE VIEW V_XI_ERROR_SUMMARY AS
+SELECT 
+    DATE(START_TIME) as ERROR_DATE,
+    INTERFACE_NAME,
+    ERROR_CODE,
+    COUNT(*) as ERROR_COUNT
+FROM XI_MESSAGE_LOG 
+WHERE STATUS = 'ERROR'
+GROUP BY DATE(START_TIME), INTERFACE_NAME, ERROR_CODE;
+
+-- Daily error report
+SELECT * FROM V_XI_ERROR_SUMMARY 
+WHERE ERROR_DATE = CURRENT_DATE
+ORDER BY ERROR_COUNT DESC;
+</code></pre>
 <h4 id="alert-configuration">Alert Configuration</h4>
-<div class="language-yaml highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="c1"># Alert rules configuration</span>
-</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="nt">monitoring</span><span class="p">:</span>
-</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="w">  </span><span class="nt">alerts</span><span class="p">:</span>
-</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Message</span><span class="nv"> </span><span class="s">Processing</span><span class="nv"> </span><span class="s">Failure&quot;</span>
-</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="w">      </span><span class="nt">condition</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;error_count</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">10</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">5min&quot;</span>
-</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a><span class="w">      </span><span class="nt">severity</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;critical&quot;</span>
-</span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a><span class="w">      </span><span class="nt">notification</span><span class="p">:</span>
-</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integration-team@company.com&quot;</span>
-</span><span id="__span-19-9"><a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">sms</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;+1234567890&quot;</span>
-</span><span id="__span-19-10"><a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a>
-</span><span id="__span-19-11"><a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Queue</span><span class="nv"> </span><span class="s">Depth</span><span class="nv"> </span><span class="s">Warning&quot;</span>
-</span><span id="__span-19-12"><a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a><span class="w">      </span><span class="nt">condition</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;queue_depth</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">1000&quot;</span>
-</span><span id="__span-19-13"><a id="__codelineno-19-13" name="__codelineno-19-13" href="#__codelineno-19-13"></a><span class="w">      </span><span class="nt">severity</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;warning&quot;</span>
-</span><span id="__span-19-14"><a id="__codelineno-19-14" name="__codelineno-19-14" href="#__codelineno-19-14"></a><span class="w">      </span><span class="nt">notification</span><span class="p">:</span>
-</span><span id="__span-19-15"><a id="__codelineno-19-15" name="__codelineno-19-15" href="#__codelineno-19-15"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ops-team@company.com&quot;</span>
-</span><span id="__span-19-16"><a id="__codelineno-19-16" name="__codelineno-19-16" href="#__codelineno-19-16"></a>
-</span><span id="__span-19-17"><a id="__codelineno-19-17" name="__codelineno-19-17" href="#__codelineno-19-17"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Performance</span><span class="nv"> </span><span class="s">Degradation&quot;</span>
-</span><span id="__span-19-18"><a id="__codelineno-19-18" name="__codelineno-19-18" href="#__codelineno-19-18"></a><span class="w">      </span><span class="nt">condition</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;avg_processing_time</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">30s</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">10min&quot;</span>
-</span><span id="__span-19-19"><a id="__codelineno-19-19" name="__codelineno-19-19" href="#__codelineno-19-19"></a><span class="w">      </span><span class="nt">severity</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;warning&quot;</span>
-</span><span id="__span-19-20"><a id="__codelineno-19-20" name="__codelineno-19-20" href="#__codelineno-19-20"></a><span class="w">      </span><span class="nt">notification</span><span class="p">:</span>
-</span><span id="__span-19-21"><a id="__codelineno-19-21" name="__codelineno-19-21" href="#__codelineno-19-21"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">slack</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#performance-alerts&quot;</span>
-</span></code></pre></div>
+<pre><code class="language-yaml"># Alert rules configuration
+monitoring:
+  alerts:
+    - name: &quot;Message Processing Failure&quot;
+      condition: &quot;error_count &gt; 10 in 5min&quot;
+      severity: &quot;critical&quot;
+      notification:
+        - email: &quot;integration-team@company.com&quot;
+        - sms: &quot;+1234567890&quot;
+
+    - name: &quot;Queue Depth Warning&quot;
+      condition: &quot;queue_depth &gt; 1000&quot;
+      severity: &quot;warning&quot;
+      notification:
+        - email: &quot;ops-team@company.com&quot;
+
+    - name: &quot;Performance Degradation&quot;
+      condition: &quot;avg_processing_time &gt; 30s in 10min&quot;
+      severity: &quot;warning&quot;
+      notification:
+        - slack: &quot;#performance-alerts&quot;
+</code></pre>
 <h2 id="emergency-response-procedures">Emergency Response Procedures</h2>
 <h3 id="critical-system-failure">Critical System Failure</h3>
 <p><strong>Immediate Actions:</strong>
@@ -1628,27 +1539,27 @@
 3. <strong>Isolate</strong> - Stop processing if data corruption risk
 4. <strong>Investigate</strong> - Follow systematic diagnostic approach</p>
 <h3 id="message-recovery">Message Recovery</h3>
-<div class="language-sql highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="c1">-- Find failed messages</span>
-</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">MESSAGE_ID</span><span class="p">,</span><span class="w"> </span><span class="n">INTERFACE_NAME</span><span class="p">,</span><span class="w"> </span><span class="n">ERROR_MESSAGE</span><span class="w"> </span>
-</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="k">FROM</span><span class="w"> </span><span class="n">XI_MESSAGE_LOG</span><span class="w"> </span>
-</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">STATUS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;ERROR&#39;</span><span class="w"> </span>
-</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="k">AND</span><span class="w"> </span><span class="n">START_TIME</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">SYSDATE</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
-</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a>
-</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a><span class="c1">-- Restart specific messages</span>
-</span><span id="__span-20-8"><a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="k">UPDATE</span><span class="w"> </span><span class="n">XI_MESSAGE_LOG</span><span class="w"> </span>
-</span><span id="__span-20-9"><a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a><span class="k">SET</span><span class="w"> </span><span class="n">STATUS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;RETRY&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">RETRY_COUNT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span>
-</span><span id="__span-20-10"><a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">MESSAGE_ID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;specific_message_id&#39;</span><span class="p">;</span>
-</span></code></pre></div>
+<pre><code class="language-sql">-- Find failed messages
+SELECT MESSAGE_ID, INTERFACE_NAME, ERROR_MESSAGE 
+FROM XI_MESSAGE_LOG 
+WHERE STATUS = 'ERROR' 
+AND START_TIME &gt; SYSDATE - 1;
+
+-- Restart specific messages
+UPDATE XI_MESSAGE_LOG 
+SET STATUS = 'RETRY', RETRY_COUNT = 0 
+WHERE MESSAGE_ID = 'specific_message_id';
+</code></pre>
 <h3 id="rollback-procedures">Rollback Procedures</h3>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="c1"># Rollback transport if needed</span>
-</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>tp<span class="w"> </span>rollback<span class="w"> </span>XI1K900123<span class="w"> </span>XI1<span class="w"> </span><span class="nv">client</span><span class="o">=</span><span class="m">100</span>
-</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>
-</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="c1"># Restore from backup</span>
-</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a><span class="c1"># Stop XI services</span>
-</span><span id="__span-21-6"><a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a><span class="c1"># Restore database/filesystem</span>
-</span><span id="__span-21-7"><a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a><span class="c1"># Restart services</span>
-</span><span id="__span-21-8"><a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a><span class="c1"># Verify functionality</span>
-</span></code></pre></div>
+<pre><code class="language-bash"># Rollback transport if needed
+tp rollback XI1K900123 XI1 client=100
+
+# Restore from backup
+# Stop XI services
+# Restore database/filesystem
+# Restart services
+# Verify functionality
+</code></pre>
 <h2 id="best-practices-for-prevention">Best Practices for Prevention</h2>
 <h3 id="regular-maintenance">Regular Maintenance</h3>
 <ul>
@@ -1730,6 +1641,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -1742,6 +1655,30 @@
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../advanced-configurations/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Advanced Configurations">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Advanced Configurations
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1796,10 +1733,12 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.action.edit", "content.tooltips", "navigation.indexes", "navigation.footer", "navigation.instant", "navigation.sections", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.top", "navigation.prune", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
