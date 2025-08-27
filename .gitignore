@@ -28,3 +28,6 @@ Thumbs.db
 
 # Node modules (if any JS tooling is used)
 node_modules/
+
+# Generic build output
+build/
