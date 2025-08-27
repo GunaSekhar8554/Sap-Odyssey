@@ -1,0 +1,30 @@
+# MkDocs build output
+site/
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*.tmp
+
+# Node modules (if any JS tooling is used)
+node_modules/

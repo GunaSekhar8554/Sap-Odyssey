@@ -1,3 +1,4 @@
+
 site_name: SAP Odyssey
 site_description: A comprehensive SAP knowledge hub featuring technical insights, integration expertise, and cross-technology explorations
 site_url: https://gunasekhar8554.github.io/sap-odyssey/
@@ -7,60 +8,57 @@ repo_url: https://github.com/GunaSekhar8554/sap-odyssey
 theme:
   name: material
   custom_dir: overrides
+  logo_dark_mode: static/wordmark_light.svg  # Update path as needed
+  logo_light_mode: static/wordmark_dark.svg  # Update path as needed
+  favicon: static/favicon.png                # Update path as needed
+  icon:
+    repo: fontawesome/brands/git-alt
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.action.edit
+    - content.tooltips
+    - navigation.indexes
+    - navigation.footer
+    - navigation.instant
     - navigation.sections
-    - navigation.expand
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.tabs
     - navigation.top
+    - navigation.prune
+    - navigation.tracking
     - search.highlight
     - search.share
-    - content.code.copy
-    - content.code.annotate
-    - content.action.edit
-    - content.action.view
+    - search.suggest
   palette:
-    # Palette toggle for light mode
     - scheme: default
-      primary: blue
-      accent: blue
+      primary: white
+      accent: gray
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Palette toggle for dark mode
     - scheme: slate
-      primary: blue
-      accent: blue
+      primary: grey
+      accent: white
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
-  # favicon: assets/images/favicon.png
-  # logo: assets/images/favicon.png
+    text: "Public Sans"
+    code: "Roboto Mono"
+
 
 plugins:
-  - search
-  # - social
+  - search:
+      separator: '[\s\u200b\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;'
+  - tags
+  - include-markdown
 
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - admonition
-  - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
-  - attr_list
-  - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home: index.md
