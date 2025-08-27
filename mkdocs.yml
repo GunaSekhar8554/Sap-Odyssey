@@ -1,9 +1,9 @@
 
 site_name: SAP Odyssey
 site_description: A comprehensive SAP knowledge hub featuring technical insights, integration expertise, and cross-technology explorations
-site_url: https://gunasekhar8554.github.io/sap-odyssey/
-repo_name: GunaSekhar8554/sap-odyssey
-repo_url: https://github.com/GunaSekhar8554/sap-odyssey
+site_url: https://github.com/GunaSekhar8554/Sap-Odyssey
+repo_name: Sap-Odyssey
+repo_url: https://github.com/GunaSekhar8554/Sap-Odyssey
 
 theme:
   name: material

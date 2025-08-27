@@ -13,7 +13,7 @@ A comprehensive SAP knowledge hub featuring technical insights, integration expe
 
 ## 🚀 Live Site
 
-Visit the live site at: **https://gunasekhar8554.github.io/sap-odyssey/**
+Visit the live site at: **https://github.com/GunaSekhar8554/Sap-Odyssey**
 
 ## 📁 Project Structure
 
@@ -51,7 +51,7 @@ sap-odyssey/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/GunaSekhar8554/sap-odyssey.git
+   git clone https://github.com/GunaSekhar8554/Sap-Odyssey
    cd sap-odyssey
    ```
 
@@ -81,7 +81,7 @@ The site automatically deploys to GitHub Pages when changes are pushed to the `m
 2. **Dependencies are installed** automatically
 3. **Site is built** using MkDocs
 4. **Content is deployed** to GitHub Pages
-5. **Site is live** at https://gunasekhar8554.github.io/sap-odyssey/
+5. **Site is live** at https://github.com/GunaSekhar8554/Sap-Odyssey
 
 ## 🎨 Customizations
 
